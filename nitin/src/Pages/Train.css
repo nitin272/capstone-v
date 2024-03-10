@@ -1,0 +1,101 @@
+/* Train.css */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /* background: url('../assets/train.jpg') no-repeat center center; */
+  /* background-color: aquamarine; */
+  background-size: cover;
+  height: 40vh;
+  object-fit: fill;
+}
+
+.train-booking-form {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.form-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form-group {
+  flex: 0 0 48%;
+  margin-bottom: 20px;
+}
+
+.form-group.full-width {
+  flex: 1 1 100%;
+}
+
+.large-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submit-button {
+  width: 50%;
+  padding: 15px 25px;
+  font-weight: 500;
+  background-color: #007bff;
+  color: #fff;
+  margin-left: 85px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.train-booking-form h2 {
+  color: black;
+  white-space: nowrap;
+}
+
+.train-details {
+  margin-top: 200px;
+  font-size: 25px;
+}
+
+.train-details h2 {
+  color: black;
+}
+
+.train-details ul {
+  list-style: none;
+  padding: 0;
+}
+
+.train-details li {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.icon-right-left {
+  text-align: center;
+  margin-top: 50px;
+  margin-left: vh;
+}
+
+.icon-right-left svg {
+  color: #888; /* Adjust icon color as needed */
+}
